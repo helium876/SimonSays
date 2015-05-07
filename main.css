@@ -1,0 +1,95 @@
+p{
+	float: none;
+}
+
+.container{
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 39.42%;
+}
+
+.middle{
+	height: 150px;
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 100%;
+	background-color: black;
+	position: absolute;	
+	margin-left: 39%;
+	margin-top: 9.5%;
+}
+
+.middle p{
+	color: white;
+	font-size: 30px;
+	font-family: cursive;
+	text-align: center;
+
+
+}
+
+.middle p :active{
+	transition: opacity 0.5s ease-in-out;
+}
+
+.yellow{
+	height: 200px;
+	width: 200px;
+	border: 2px solid gold;
+	background-color: gold;
+	float: left;
+	border-top-left-radius: 100%;
+}
+
+.red{
+	height: 200px;
+	width: 200px;
+	border: 2px solid red;
+	background-color: red;
+	float: right;
+	border-top-right-radius: 100%;
+	box-shadow: 5px 10px 10px #373737;
+}
+
+.blue{
+	height: 200px;
+	width: 200px;
+	border: 2px solid blue;
+	background-color: blue;
+	float: left;
+	border-bottom-left-radius: 100%;
+	box-shadow: 5px 5px 10px #373737;
+}
+
+.green{
+	height: 200px;
+	width: 200px;
+	border: 2px solid green;
+	background-color: green;
+	float: right;
+	border-bottom-right-radius: 100%;
+	box-shadow: 10px 10px 10px #373737;
+}
+
+.green:active{
+	background-color: lightgreen;
+	border-color: lightgreen;
+}
+
+.red:active{
+	background-color: pink;
+	border-color: pink;
+
+}
+
+.blue:active{
+	background-color: lightblue;
+	border-color: lightblue;
+
+}
+
+.yellow:active{
+	background-color: yellow;
+	border-color: yellow;
+}
+
